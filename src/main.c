@@ -50,7 +50,8 @@ int main()
 
 	// hello world
 	printf("Hello world!\n");
-	
+	printf("This is an OpenGL program.\n");
+		
 	// initialize GLFW
 	glfwInit();
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
