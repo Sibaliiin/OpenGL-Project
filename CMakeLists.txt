@@ -11,6 +11,7 @@ find_package(glfw3 REQUIRED)
 add_executable(p
 	src/main.c
 	src/glad.c
+	src/shader.c
 )
 
 target_include_directories(p PRIVATE
