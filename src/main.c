@@ -34,11 +34,6 @@ int main()
 		0, 1, 2, 	// triangle indices
 	};
 
-	// hello world
-	printf("Hello world!\n");
-	printf("This is an OpenGL program.\n");
-	printf("I wrote this line from my laptop!\n");
-
 	// initialize GLFW
 	glfwInit();
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
